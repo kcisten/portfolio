@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "kristen",
-  lastName: "chung",
+  firstName: "Selene",
+  lastName: "Yu",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "informatics student",
+  role: "Design Engineer",
   avatar: "/images/avatar.jpg",
-  location: "America/Los Angeles", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -34,7 +34,7 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/chungkristen/",
+    link: "https://www.linkedin.com/company/once-ui/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:n.kristenchung@gmail.com",
+    link: "mailto:example@gmail.com",
   },
 ];
 
@@ -92,25 +92,26 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Rocket Lab",
-        timeframe: "March 2025 - Present",
-        role: "IT Intern",
+        company: "FLY",
+        timeframe: "2022 - Present",
+        role: "Senior Design Engineer",
         achievements: [
           <>
-            Currently working on infra for Space Systems operations.
+            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
+            engagement and 30% faster load times.
           </>,
           <>
-            Developing and maintaining cybersecurity documentation and frameworks to enhance organizational
-            security posture
+            Spearheaded the integration of AI tools into design workflows, enabling designers to
+            iterate 50% faster.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            // src: "/images/projects/project-01/cover-01.jpg",
-            // alt: "Once UI Project",
-            // width: 16,
-            // height: 9,
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
           },
         ],
       },
